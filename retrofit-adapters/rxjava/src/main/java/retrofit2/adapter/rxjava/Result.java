@@ -62,4 +62,12 @@ public final class Result<T> {
   public boolean isError() {
     return error != null;
   }
+  
+  @Override
+  public String toString(){
+    if(error != null){
+      return "Result with error";
+    }
+    return "Result without error"
+  }
 }
