@@ -68,6 +68,6 @@ public final class Result<T> {
     if(error != null){
       return "Result with error";
     }
-    return "Result without error"
+    return "Result without error";
   }
 }
